@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+    background-color:#D8D8D8;
+    background-image: url("img/swirl_pattern.png");
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    margin: auto;
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+header
+{
+	color:#000000;
+
+}
+
+#logo
+{
+     margin-bottom: 10px;
+    -webkit-transition: width 2s, height 2s; /* Safari */
+    transition: width 2s, height 2s;
+    transition-timing-function: ease-out;
+}
+
+#logo:hover
+{
+    width: 500px;
+    height: 400px;
+}
+
+nav
+{
+    margin: 10px;
+    text-align: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav li
+{
+    display: inline;
+    padding: 3px;
+}
+
+nav a
+{
+    border-top: 1px #000 solid;
+    border-left: 1px #000 solid;
+    border-right: 1px #000 solid;
+}
+
+nav a:link {
+    text-decoration: underline;
+	color:#B90504;
+    border-bottom: 1px #000 solid;
+}
+
+nav a:visited {
+    text-decoration: underline;
+	background-color:#990100;
+}
+
+nav a:hover 
+{
+	background-color:#333333;
+}
+
+nav a:active 
+{
+    text-decoration: none;
+}
+
+h1, h2, h4
+{
+    text-shadow: 3px 3px 1px #888888;
+}
+
+p
+{
+    text-align: center;
+}
+
+
+footer
+{
+    color: #333333;
+    font-size: .7em;
+}

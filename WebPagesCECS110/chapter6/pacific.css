@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* LAB 3 CSS */
+body
+{
+	background-color:#FFFFFF;
+	background-image: url("img/ptrbackground.jpg");
+	font-family: "Arial", "Helvetica", Sans-serif;
+}
+
+#wrapper
+{
+	width: 80%;
+	background-color:#FFFFFF;
+	margin: 0 auto;
+	min-width: 960px;
+	box-shadow: 5px 5px 5px #000033;
+}
+
+header
+{
+	background:#000033 url("img/sunset.jpg") right no-repeat;
+	color:#FFFFFF;
+}
+
+nav
+{
+	background-color:#90C7E3;
+	padding-left: 20px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+h1
+{
+	margin-bottom: 0;
+	padding: 10px;
+	font-family: "Times New Roman", "Georgia", serif;
+}
+
+h2
+{
+	color:#3399CC;
+	font-family: "Times New Roman", "Georgia", serif;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+h3
+{
+	color: #000033;
+	font-family: "Times New Roman", "Georgia", serif;
+}
+
+dt
+{
+	color:#000033;
+}
+
+#content ul
+{
+	list-style-image: url('img/marker.gif');
+	list-style-position: inside;
+}
+
+#content
+{
+	padding-top: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#contact
+{
+	font-size: 90%;
+}
+
+.resort
+{
+	color:#5C7FA3;
+	font-weight: bold;
+}
+
+footer
+{
+	padding: 20px;
+	font-size: 75%;
+	font-style: italic;
+	font-family: "Times New Roman", "Georgia", "Times", serif;
+}

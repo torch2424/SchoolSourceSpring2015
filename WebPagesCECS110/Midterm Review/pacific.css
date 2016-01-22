@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* LAB 3 CSS */
+body
+{
+	background-color:#FFFFCC;
+	color: #330000;
+	background-image: url("img/javabackground.jpg");
+	font-family: "Arial", "Helvetica", Sans-serif;
+}
+
+#wrapper
+{
+	width: 80%;
+	background-color: #FFFFCC;
+	margin: 0 auto;
+	min-width: 960px;
+	box-shadow: 5px 5px 5px #000033;
+}
+
+header
+{
+	/*url("img/javalogo.gif") */
+	background:#CCAA66 url("img/javalogo.gif") center no-repeat;
+	color: #000000;
+}
+
+nav
+{
+	padding-left: 20px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 20px;
+	font-weight: bold;
+	float: left;
+	width: 160px;
+}
+
+nav ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+h1
+{
+	width: 619px;
+	height: 100px;
+	text-indent: -9999px
+	margin-bottom: 0;
+	padding: 10px;
+	font-family: "Times New Roman", "Georgia", serif;
+}
+
+h2
+{
+	background-color: #FFFFCC;
+	color: #663300;
+	font-family: "Times New Roman", "Georgia", serif;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+h3
+{
+	color: #000033;
+	font-family: "Times New Roman", "Georgia", serif;
+}
+
+dt
+{
+	color:#000033;
+}
+
+#content ul
+{
+	list-style-image: url('img/marker.gif');
+	list-style-position: inside;
+}
+
+#content
+{
+	padding-top: 1px;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-color: #FFFFCC;
+	margin-left: 190px;
+}
+
+#content img
+{
+	float: left;
+	padding-right: 20px;
+}
+
+#contact
+{
+	font-size: 90%;
+}
+
+.resort
+{
+	color:#5C7FA3;
+	font-weight: bold;
+}
+
+footer
+{
+	padding: 20px;
+	font-size: 75%;
+	font-style: italic;
+	font-family: "Times New Roman", "Georgia", "Times", serif;
+	margin-left: 190px;
+	background-color: #CCAA66;
+	float: center;
+}
+
+nav a:link {
+    text-decoration: none;
+	color:#996633;
+}
+
+nav a:visited {
+    text-decoration: none;
+	color:#CCAA66;
+}
+
+nav a:hover 
+{
+	color:#330000;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
+table
+{
+    border: 1px solid blue;
+	border-spacing: 0;
+	width: 80%;
+}
+
+th, td
+{
+	padding: 5px;
+    border: 1px solid blue;
+}
+
+.text
+{
+	text-align: left;
+}
+
+tr:nth-of-type(even)
+{
+	background-color: #F5FAFC
+}

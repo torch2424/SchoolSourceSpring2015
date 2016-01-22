@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* LAB 3 CSS */
+body
+{
+	background-color:#FFFFFF;
+}
+
+header
+{
+	background:#000033 url("img/sunset.jpg") right no-repeat;
+	color:#FFFFFF;
+}
+
+nav
+{
+	background-color:#90C7E3;
+}
+
+h1
+{
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+h2
+{
+	color:#3399CC;
+}
+
+h3
+{
+	color: #000033;
+}
+
+dt
+{
+	color:#000033;
+}
+
+ul
+{
+	list-style-image: url('img/marker.gif');
+}
+
+.resort
+{
+	color:#5C7FA3;
+}

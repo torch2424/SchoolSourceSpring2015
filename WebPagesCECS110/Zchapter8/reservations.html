@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "en" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="pacific.css">
+<title>Reservations</title>
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+<h1> Pacific Trails Resort </h1>
+</header>
+
+<nav> 
+<ul>
+<li> <a href="index.html"> Home </a> </li>
+<li> <a href="yurts.html"> Yurts </a> </li>
+<li> <a href="activities.html"> Activities </a> </li>
+<li> <a href="reservations.html"> Reservations </a> </li>
+</ul>
+</nav>
+
+<div id="content">
+<h2> Reservations at Pacific Trails </h2>
+
+<h3> Contact Us Today! </h3>
+
+<p> Required fields are marked with an asterisk *</p>
+<form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+	<label for = "myFname">*First name: </label><input type="text" id = "myFname" name="myFname" required>
+	<label for = "myLname">*Last name: </label><input type="text" id = "myLname" name="myLname" required>
+	<label for = "myEmail">*E-mail Address: </label><input type="email" id = "myEmail" name="myEmail" maxlength="12" size="40" required>
+	<label for = "myPhone">Phone Number: </label><input type="tel" id = "myPhone" name="myPhone">
+	<label for = "myDate">Arrival Date: </label><input type="date" id = "myDate" name="myDate">
+	<label for = "myNights">Nights: </label><input type="number" id = "myNights" name="myNights" min = "1" max = "14">
+	<label for = "myComments">*Comments: </label><textarea id = "myComments" name="myComments" rows = "2" cols = "32" required> </textarea>
+	<input type = "submit" value = "Submit">
+</form>
+
+<!-- Contact info -->
+<div id="contact">
+<span class="resort">Pacific Trails Resort</span> <br>
+12010 Pacific Trails Road <br>
+Zephyr, CA 95555 <br><br>
+888-555-5555
+<br><br>
+</div>
+
+</div>
+
+<footer> 
+<br>
+Copyright &copy; 2015 Pacific Trails Resort
+<br>
+<a href="mailto:you@youraddress.com">E-Mail</a>
+</footer>
+<!--End of wrapper div -->
+</div>
+
+</body>
+</html>
